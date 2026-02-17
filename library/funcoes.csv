@@ -1,3 +1,3 @@
 nome,categoria,descricao,formula,autor,versao
-lfInicioMes,Data,Retorna primeiro dia do mes,LAMBDA(data;DATA(ANO(data);MÊS(data);1)),Guia do Excel,1.0
-lfJurosCompostos,Financeiro,Calcula juros compostos,LAMBDA(valor;taxa;n;valor*(1+taxa)^n),Guia do Excel,1.0
+lfInicioMes,Data,Retorna primeiro dia do mes,=LAMBDA(data;DATA(ANO(data);MÊS(data);1)),Guia do Excel,1.0
+lfJurosCompostos,Financeiro,Calcula juros compostos,=LAMBDA(valor;taxa;n;valor*(1+taxa)^n),Guia do Excel,1.0
